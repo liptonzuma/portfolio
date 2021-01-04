@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 100vh;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    font-size: 1.3rem;
+    font-family: 'Audiowide', cursive;
+    text-transform: capitalize;
+}
+
+.nav-link {
+    color: #fff !important;
+    transition: 2s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.nav-link:hover {
+    background: #6c5b7b;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    background: #f67280;
+    z-index: 1000;
+}
+
+.intro {
+    background: #6c5b7b;
+    color: #ddd;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Audiowide', cursive;
+}
+
+.intro p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #f67280;
+}
+
+.projects {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10%;
+    background: #355c7d;
+    display: flex;
+}
+
+.which-is-greater figcaption {
+    padding: 1.9rem;
+    margin: auto 0;
+}
+
+.tribute-page figcaption {
+    padding: 3.1rem;
+}
+
+.projects h1 {
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.projects a {
+    text-decoration: none;
+    display: block;
+    box-shadow: 10px 10px 10px #6c5b7b;
+    transition: 100ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.projects a:hover {
+    transform: translateY(-15px);
+}
+
+.projects figcaption {
+    background: rgb(58, 57, 57);
+    color: #ddd;
+    height: 3rem;
+}
+
+code {
+    font-size: 1rem;
+}
+
+#contact {
+    height: 100vh;
+    padding-top: 15%;
+    background: #363636;
+    color: #ddd;
+}
+
+.contact h1 {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 3.5rem;
+}
+
+.contact p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.socials a,
+.tel {
+    margin-right: 3rem;
+    color: #ddd !important;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    display: block;
+    transition: 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.socials a:hover {
+    transform: translateY(-10px);
+}
+
+.end {
+    padding-top: 1rem;
+}
+
+@media(max-width:550px) {
+    .contact h1 {
+        font-size: 2rem;
+    }
+    .contact p {
+        font-size: 1rem;
+    }
+    .socials a {
+        font-size: 1.3rem;
+        margin-bottom: 13rem;
+        margin-top: 2rem;
+    }
+}
